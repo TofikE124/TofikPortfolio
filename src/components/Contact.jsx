@@ -40,8 +40,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        process.env.EMAILJS_SERVICE_ID,
-        process.env.EMAILJS_TEMPLATE_ID,
+        "service_cdi0nkw",
+        "template_70tjbyf",
         {
           from_name: fieldValues.name,
           to_name: "Tofik Elias",
