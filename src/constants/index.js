@@ -1,4 +1,3 @@
-
 import {
   mobile,
   backend,
@@ -13,6 +12,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  next_js,
   git,
   figma,
   docker,
@@ -82,24 +82,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next JS",
+    icon: next_js,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -108,10 +96,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
