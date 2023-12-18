@@ -23,10 +23,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import next_js from "./tech/next-js.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import SchoolLearning from "./learning-timeline/SchoolLearning.png";
+import SchoolProject from "./learning-timeline/SchoolProject.png";
+import SelfLearning from "./learning-timeline/SelfLearning.png";
+import BuildingProjects from "./learning-timeline/BuildingProject.png";
 
 import Audiophile from "./work/Audiophile.png";
 import Designo from "./work/Designo.png";
@@ -64,10 +64,10 @@ export {
   typescript,
   threejs,
   next_js,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  SchoolLearning,
+  SchoolProject,
+  SelfLearning,
+  BuildingProjects,
   Audiophile,
   Designo,
   EntertainmentWebApp,

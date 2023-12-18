@@ -12,10 +12,6 @@ import {
   next_js,
   git,
   figma,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   ProductFeedbackApp,
   Designo,
   KanbanTaskManagment,
@@ -27,6 +23,10 @@ import {
   MultiStepForm,
   SpaceTravel,
   WhereInTheWorld,
+  SchoolLearning,
+  SchoolProject,
+  SelfLearning,
+  BuildingProjects,
 } from "../assets";
 
 export const navLinks = [
@@ -35,8 +35,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Learning Journey",
   },
   {
     id: "projects",
@@ -106,57 +106,49 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const learningSections = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "School Journey",
+    company_name: "School",
+    icon: SchoolLearning,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2020 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Explored C# fundamentals, data structures, and delved into Unity game projects.",
+      "Discovered a passion for web development while crafting a website project.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "School Project Leap",
+    company_name: "School",
+    icon: SchoolProject,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2022 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "mmersed in HTML, CSS, and JavaScript for an ASP.NET college entry project.",
+      "Offered support to friends' web projects, enhancing collaborative skills.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Self-Learning Expedition",
+    company_name: "Scrimba",
+    icon: SelfLearning,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2023 - Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engaged in self-teaching via YouTube, Scrimba courses, and Mosh Hamedani's materials.",
+      "Mastered React, TypeScript, Git, and Next.js through dedicated learning efforts.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Applied Learning & Skill Refinement",
+    company_name: "Frontend",
+    icon: BuildingProjects,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2023 - Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilized Frontend Mentor designs for practical website creation.",
+      "Sharpened problem-solving abilities and continuously refined skills.",
     ],
   },
 ];
@@ -341,4 +333,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, learningSections, testimonials, projects };
