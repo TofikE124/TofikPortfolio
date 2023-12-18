@@ -49,7 +49,7 @@ const Contact = () => {
           to_email: "eleltofik@gmail.com",
           message: fieldValues.message,
         },
-        process.env.EMAILJS_PUBLIC_KEY
+        "ScnyTJ8CcolbWuj4U"
       )
       .then(() => {
         setLoading(flase);
