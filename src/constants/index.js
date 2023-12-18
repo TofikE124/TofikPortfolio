@@ -8,22 +8,25 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   next_js,
   git,
   figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  ProductFeedbackApp,
+  Designo,
+  KanbanTaskManagment,
+  RockPaperScissors,
+  InteractiveCommentsSection,
+  Audiophile,
+  IssueTracker,
+  EntertainmentWebApp,
+  MultiStepForm,
+  SpaceTravel,
+  WhereInTheWorld,
 } from "../assets";
 
 export const navLinks = [
@@ -34,6 +37,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -181,69 +188,156 @@ const testimonials = [
   },
 ];
 
+const tags = {
+  react: {
+    name: "react",
+    color: "blue-text-gradient",
+  },
+  next_js: {
+    name: "next.js",
+    color: "orange-text-gradient",
+  },
+  tailwind: {
+    name: "tailwind",
+    color: "green-text-gradient",
+  },
+  css: {
+    name: "css",
+    color: "green-text-gradient",
+  },
+  scss: {
+    name: "scss",
+    color: "pink-text-gradient",
+  },
+  api: {
+    name: "api",
+    color: "pink-text-gradient",
+  },
+  fullstack: {
+    name: "fullstack",
+    color: "green-text-gradient",
+  },
+  localStorage: {
+    name: "localStorage",
+    color: "green-text-gradient",
+  },
+};
+
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    name: "Product Feedback App",
+    description: `Utilizing Next.js, Prisma & NextAuth, this dynamic platform encourages
+      idea submissions akin to GitHub issues. Engage in collaborative problem-solving through
+      comments, upvotes, and community-driven interactions, fostering a space for shared
+      innovation and solution-building.`,
+    tags: [tags.next_js, tags.scss, tags.fullstack],
+    image: ProductFeedbackApp,
+    source_code_link: "https://github.com/TofikE124/Product-Feedback-App",
+    live_link: "https://product-feedback-app-beta-five.vercel.app",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    name: "Designo",
+    description: `Explore Our Creative World! Dive into a captivating 
+      showcase of web, app, and graphic designs. Discover innovation and inspiration
+      through our diverse portfolio.`,
+    tags: [tags.react, tags.css],
+    image: Designo,
+    source_code_link: "https://github.com/TofikE124/Designo",
+    live_link: "https://gorgeous-brioche-7c0074.netlify.app",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    name: "Kanban Task Managment App",
+    description: `Effortlessly manage tasks across custom boards like 'Project Development'
+      or 'Event Planning.' Seamlessly transition tasks between 'To-Do,' 'In Progress,'
+      and 'Completed' with this system crafted using React and local storage, enhancing
+      productivity and workflow management.`,
+    tags: [tags.react, tags.localStorage],
+    image: KanbanTaskManagment,
+    source_code_link: "https://github.com/TofikE124/Kanban-task-managment",
+    live_link: "https://graceful-cupcake-664f77.netlify.app",
+  },
+  {
+    name: "Rock Paper Scissors Lizard Spock",
+    description: ` Classic and 'Lizard Spock' Edition! 
+      This Next.js and SCSS-built game offers traditional play or the added challenge
+      of 'Lizard' and 'Spock.' Engage in strategy, revel in variety, and enjoy the playful
+      twists!`,
+    tags: [tags.react, tags.scss],
+    image: RockPaperScissors,
+    source_code_link: "https://github.com/TofikE124/rock-paper-scissors",
+    live_link: "https://rock-paper-scissors-eta-sepia.vercel.app",
+  },
+  {
+    name: "Interactive Comments Section",
+    description: `Interactive Comments Section: Engage, Vote, Discuss! Powered by Next.js,
+     NextAuth, and Prisma, this platform enables commenting, upvoting, and downvoting,
+      fostering interactive discussions. Seamlessly contribute, share opinions, and shape 
+      conversations in this dynamic community-driven space.`,
+    tags: [tags.next_js, tags.fullstack],
+    image: InteractiveCommentsSection,
+    source_code_link:
+      "https://github.com/TofikE124/interactive-comments-section",
+    live_link: "https://interactive-comments-section-pxi1.vercel.app",
+  },
+  {
+    name: "Audiophile",
+    description: `Explore & Shop Headphones! Browse our latest headphone offers, add favorites
+      to your cart, and make purchases hassle-free. Crafted with React and local storage,
+      this app ensures seamless browsing and shopping for your audio needs.`,
+    tags: [tags.react, tags.css, tags.localStorage],
+    image: Audiophile,
+    source_code_link:
+      "https://github.com/TofikE124/Audiophile-Ecommerce-Website",
+    live_link: "https://brilliant-begonia-545122.netlify.app",
+  },
+  {
+    name: "Issue Tracker",
+    description: `Next.js, Prisma & NextAuth converge in this issue tracker. Easily 
+      add and categorize issues, leveraging a seamless interface for streamlined
+       issue management and accessibility.`,
+    tags: [tags.next_js, tags.fullstack],
+    image: IssueTracker,
+    source_code_link: "https://github.com/TofikE124/Designo",
+    live_link: "https://issue-tracker-u639.vercel.app",
+  },
+  {
+    name: "Entrtainment Wep App",
+    description: `An immersive entertainment web app powered by React. Log in to
+       explore movies, TV shows, mark favorites, and easily search by name. Enjoy
+        a personalized experience tailored to your preferences.`,
+    tags: [tags.react, tags.fullstack],
+    image: EntertainmentWebApp,
+    source_code_link: "https://github.com/TofikE124/Entertainment-Wep-App",
+    live_link: "https://startling-meerkat-af238a.netlify.app",
+  },
+  {
+    name: "Multi Step Form",
+    description: `Explore a sleek multi-form web page using React, React Hook
+      Form, and Zod. Effortless transitions showcase efficient form features in a
+      user-friendly interface.`,
+    tags: [tags.react, tags.css],
+    image: MultiStepForm,
+    source_code_link: "https://github.com/TofikE124/MultiForm",
+    live_link: "https://inspiring-truffle-aa8631.netlify.app",
+  },
+  {
+    name: "Space Travel",
+    description: `Space Travel: Explore planets, astronauts, and rocket tech! This React-powered website offers
+       intriguing insights into space. Dive into captivating details about celestial bodies, astronauts,
+        and the fascinating technology behind space exploration.`,
+    tags: [tags.react, tags.css],
+    image: SpaceTravel,
+    source_code_link: "https://github.com/TofikE124/Space-Travel",
+    live_link: "https://symphonious-faun-36c411.netlify.app",
+  },
+  {
+    name: "Where in the world?",
+    description: `Explore Global Diversity: Find countries by name or region, built using
+       React and REST Countries API. Dive into intriguing details for a rich exploration experience.`,
+    tags: [tags.react, tags.api],
+    image: WhereInTheWorld,
+    source_code_link: "https://github.com/TofikE124/where-in-the-world-V2.0",
+    live_link: "https://fanciful-crisp-3ecb19.netlify.app",
   },
 ];
 
