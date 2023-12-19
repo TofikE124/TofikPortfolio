@@ -26,7 +26,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt="web-development"
-          className="w-16 h-16 object-contain"
+          className="w-28 h-28 object-contain"
         />
 
         <h3 className="text-white text-[20px] font-bold text-center">
@@ -56,7 +56,7 @@ const About = () => {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap justify-center sm:justify-start gap-10">
+      <div className="mt-20 flex flex-wrap md:justify-center justify-start gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
