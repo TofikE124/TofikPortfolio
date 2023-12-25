@@ -300,7 +300,7 @@ const projects = [
     tags: [tags.react, tags.fullstack],
     image: EntertainmentWebApp,
     source_code_link: "https://github.com/TofikE124/entertainment-web-app-V2.0",
-    live_link: "https://entertainment-web-app-v2-0-65zm.vercel.app",
+    live_link: "https://entertainment-web-app-v2-0-65zm.vercel.app/home",
   },
   {
     name: "Multi Step Form",
