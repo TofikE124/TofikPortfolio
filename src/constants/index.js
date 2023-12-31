@@ -27,6 +27,7 @@ import {
   SchoolProject,
   SelfLearning,
   BuildingProjects,
+  InvoiceApp,
 } from "../assets";
 
 export const navLinks = [
@@ -226,6 +227,17 @@ const projects = [
     image: ProductFeedbackApp,
     source_code_link: "https://github.com/TofikE124/Product-Feedback-App",
     live_link: "https://product-feedback-app-beta-five.vercel.app",
+  },
+  {
+    name: "Invoice App",
+    description: `Next.js app with Prisma & NextAuth for streamlined invoicing. Create
+     invoices with client details, set payment terms (e.g., Net 30), add items (e.g., Web Development -
+      $500, Graphic Design - $300), and manage states (Paid, Pending, Draft). Simplify
+      your invoicing process effortlessly!`,
+    tags: [tags.next_js, tags.scss, tags.fullstack],
+    image: InvoiceApp,
+    source_code_link: "https://github.com/TofikE124/invoice-app",
+    live_link: "https://invoice-app-kvha.vercel.app",
   },
   {
     name: "Designo",

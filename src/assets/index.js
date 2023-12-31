@@ -39,6 +39,7 @@ import ProductFeedbackApp from "./work/ProductFeedbackApp.png";
 import RockPaperScissors from "./work/RockPaperScissors.png";
 import SpaceTravel from "./work/SpaceTravel.jpg";
 import WhereInTheWorld from "./work/WhereInTheWorld.png";
+import InvoiceApp from "./work/InvoiceApp.png";
 
 export {
   logo,
@@ -79,4 +80,5 @@ export {
   RockPaperScissors,
   SpaceTravel,
   WhereInTheWorld,
+  InvoiceApp,
 };
