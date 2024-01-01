@@ -21,7 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Frontend Developer, experienced in{" "}
             <br className="sm:block hidden" />
-            React.js Next.js
+            React.js and Next.js
           </p>
         </div>
       </div>
