@@ -40,6 +40,7 @@ import RockPaperScissors from "./work/RockPaperScissors.png";
 import SpaceTravel from "./work/SpaceTravel.jpg";
 import WhereInTheWorld from "./work/WhereInTheWorld.png";
 import InvoiceApp from "./work/InvoiceApp.png";
+import Oshop from "./work/Oshop.png";
 
 export {
   logo,
@@ -81,4 +82,5 @@ export {
   SpaceTravel,
   WhereInTheWorld,
   InvoiceApp,
+  Oshop,
 };

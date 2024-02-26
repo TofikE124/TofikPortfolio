@@ -28,6 +28,7 @@ import {
   SelfLearning,
   BuildingProjects,
   InvoiceApp,
+  Oshop,
 } from "../assets";
 
 export const navLinks = [
@@ -190,6 +191,10 @@ const tags = {
     name: "next.js",
     color: "orange-text-gradient",
   },
+  angular: {
+    name: "angular",
+    color: "blue-text-gradient",
+  },
   tailwind: {
     name: "tailwind",
     color: "green-text-gradient",
@@ -214,6 +219,10 @@ const tags = {
     name: "localStorage",
     color: "green-text-gradient",
   },
+  firebase: {
+    name: "firebase",
+    color: "orange-text-gradient",
+  },
 };
 
 const projects = [
@@ -227,6 +236,17 @@ const projects = [
     image: ProductFeedbackApp,
     source_code_link: "https://github.com/TofikE124/Product-Feedback-App",
     live_link: "https://product-feedback-app-beta-five.vercel.app",
+  },
+  {
+    name: "O-Shop",
+    description: `
+      O-Shop: A seamless shopping experience for organics. Add items to your cart, view past 
+      orders, and manage products with ease. Built with Angular and Firebase for real-time updates
+      and secure authentication.`,
+    tags: [tags.angular, tags.firebase],
+    image: Oshop,
+    source_code_link: "https://github.com/TofikE124/angular-shopping",
+    live_link: "https://angular-shopping-8a56d.web.app/",
   },
   {
     name: "Invoice App",
@@ -260,6 +280,7 @@ const projects = [
     source_code_link: "https://github.com/TofikE124/Kanban-task-managment",
     live_link: "https://graceful-cupcake-664f77.netlify.app",
   },
+
   {
     name: "Rock Paper Scissors Lizard Spock",
     description: ` Classic and 'Lizard Spock' Edition! 
