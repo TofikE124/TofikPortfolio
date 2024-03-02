@@ -238,17 +238,6 @@ const projects = [
     live_link: "https://product-feedback-app-beta-five.vercel.app",
   },
   {
-    name: "O-Shop",
-    description: `
-      O-Shop: A seamless shopping experience for organics. Add items to your cart, view past 
-      orders, and manage products with ease. Built with Angular and Firebase for real-time updates
-      and secure authentication.`,
-    tags: [tags.angular, tags.firebase],
-    image: Oshop,
-    source_code_link: "https://github.com/TofikE124/angular-shopping",
-    live_link: "https://angular-shopping-8a56d.web.app/",
-  },
-  {
     name: "Invoice App",
     description: `Next.js app with Prisma & NextAuth for streamlined invoicing. Create
      invoices with client details, set payment terms (e.g., Net 30), add items (e.g., Web Development -
@@ -260,14 +249,15 @@ const projects = [
     live_link: "https://invoice-app-kvha.vercel.app",
   },
   {
-    name: "Designo",
-    description: `Explore Our Creative World! Dive into a captivating 
-      showcase of web, app, and graphic designs. Discover innovation and inspiration
-      through our diverse portfolio.`,
-    tags: [tags.react, tags.css],
-    image: Designo,
-    source_code_link: "https://github.com/TofikE124/Designo",
-    live_link: "https://gorgeous-brioche-7c0074.netlify.app",
+    name: "O-Shop",
+    description: `
+      O-Shop: A seamless shopping experience for organics. Add items to your cart, view past 
+      orders, and manage products with ease. Built with Angular and Firebase for real-time updates
+      and secure authentication.`,
+    tags: [tags.angular, tags.firebase],
+    image: Oshop,
+    source_code_link: "https://github.com/TofikE124/angular-shopping",
+    live_link: "https://angular-shopping-8a56d.web.app/",
   },
   {
     name: "Kanban Task Managment App",
@@ -279,6 +269,26 @@ const projects = [
     image: KanbanTaskManagment,
     source_code_link: "https://github.com/TofikE124/Kanban-task-managment",
     live_link: "https://graceful-cupcake-664f77.netlify.app",
+  },
+  {
+    name: "Where in the world?",
+    description: `Explore Global Diversity: Find countries by name or region, built using
+       React and REST Countries API. Dive into intriguing details for a rich exploration experience.`,
+    tags: [tags.angular, tags.api],
+    image: WhereInTheWorld,
+    source_code_link: "https://github.com/TofikE124/where-in-the-world-angular",
+    live_link: "https://tofik-where-in-the-world.netlify.app",
+  },
+
+  {
+    name: "Designo",
+    description: `Explore Our Creative World! Dive into a captivating 
+      showcase of web, app, and graphic designs. Discover innovation and inspiration
+      through our diverse portfolio.`,
+    tags: [tags.react, tags.css],
+    image: Designo,
+    source_code_link: "https://github.com/TofikE124/Designo",
+    live_link: "https://gorgeous-brioche-7c0074.netlify.app",
   },
 
   {
@@ -293,18 +303,6 @@ const projects = [
     live_link: "https://rock-paper-scissors-eta-sepia.vercel.app",
   },
   {
-    name: "Interactive Comments Section",
-    description: `Interactive Comments Section: Engage, Vote, Discuss! Powered by Next.js,
-     NextAuth, and Prisma, this platform enables commenting, upvoting, and downvoting,
-      fostering interactive discussions. Seamlessly contribute, share opinions, and shape 
-      conversations in this dynamic community-driven space.`,
-    tags: [tags.next_js, tags.fullstack],
-    image: InteractiveCommentsSection,
-    source_code_link:
-      "https://github.com/TofikE124/interactive-comments-section",
-    live_link: "https://interactive-comments-section-pxi1.vercel.app",
-  },
-  {
     name: "Audiophile",
     description: `Explore & Shop Headphones! Browse our latest headphone offers, add favorites
       to your cart, and make purchases hassle-free. Crafted with React and local storage,
@@ -316,16 +314,6 @@ const projects = [
     live_link: "https://brilliant-begonia-545122.netlify.app",
   },
   {
-    name: "Issue Tracker",
-    description: `Next.js, Prisma & NextAuth converge in this issue tracker. Easily 
-      add and categorize issues, leveraging a seamless interface for streamlined
-       issue management and accessibility.`,
-    tags: [tags.next_js, tags.fullstack],
-    image: IssueTracker,
-    source_code_link: "https://github.com/TofikE124/Designo",
-    live_link: "https://issue-tracker-u639.vercel.app",
-  },
-  {
     name: "Entrtainment Wep App",
     description: `An immersive entertainment web app powered by React. Log in to
        explore movies, TV shows, mark favorites, and easily search by name. Enjoy
@@ -335,6 +323,30 @@ const projects = [
     source_code_link: "https://github.com/TofikE124/entertainment-web-app-V2.0",
     live_link: "https://entertainment-web-app-v2-0-65zm.vercel.app/home",
   },
+  {
+    name: "Interactive Comments Section",
+    description: `Interactive Comments Section: Engage, Vote, Discuss! Powered by Next.js,
+     NextAuth, and Prisma, this platform enables commenting, upvoting, and downvoting,
+      fostering interactive discussions. Seamlessly contribute, share opinions, and shape 
+      conversations in this dynamic community-driven space.`,
+    tags: [tags.next_js, tags.fullstack],
+    image: InteractiveCommentsSection,
+    source_code_link:
+      "https://github.com/TofikE124/interactive-comments-section",
+    live_link: "https://interactive-comments-section-pxi1.vercel.app",
+  },
+
+  {
+    name: "Issue Tracker",
+    description: `Next.js, Prisma & NextAuth converge in this issue tracker. Easily 
+      add and categorize issues, leveraging a seamless interface for streamlined
+       issue management and accessibility.`,
+    tags: [tags.next_js, tags.fullstack],
+    image: IssueTracker,
+    source_code_link: "https://github.com/TofikE124/Designo",
+    live_link: "https://issue-tracker-u639.vercel.app",
+  },
+
   {
     name: "Multi Step Form",
     description: `Explore a sleek multi-form web page using React, React Hook
@@ -354,15 +366,6 @@ const projects = [
     image: SpaceTravel,
     source_code_link: "https://github.com/TofikE124/Space-Travel",
     live_link: "https://symphonious-faun-36c411.netlify.app",
-  },
-  {
-    name: "Where in the world?",
-    description: `Explore Global Diversity: Find countries by name or region, built using
-       React and REST Countries API. Dive into intriguing details for a rich exploration experience.`,
-    tags: [tags.react, tags.api],
-    image: WhereInTheWorld,
-    source_code_link: "https://github.com/TofikE124/where-in-the-world-V2.0",
-    live_link: "https://fanciful-crisp-3ecb19.netlify.app",
   },
 ];
 
