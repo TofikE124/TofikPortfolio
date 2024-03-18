@@ -254,10 +254,22 @@ const projects = [
       O-Shop: A seamless shopping experience for organics. Add items to your cart, view past 
       orders, and manage products with ease. Built with Angular and Firebase for real-time updates
       and secure authentication.`,
-    tags: [tags.angular, tags.firebase],
+    tags: [tags.angular, tags.fullstack, tags.firebase],
     image: Oshop,
     source_code_link: "https://github.com/TofikE124/angular-shopping",
     live_link: "https://angular-shopping-8a56d.web.app/",
+  },
+  {
+    name: "Entrtainment Wep App",
+    description: `An immersive entertainment web app powered by React. Log in to
+       explore movies, TV shows, mark favorites, and easily search by name. Enjoy
+        a personalized experience tailored to your preferences.`,
+    tags: [tags.angular, tags.fullstack, tags.firebase],
+    image: EntertainmentWebApp,
+    source_code_link:
+      "https://github.com/TofikE124/entertainment-web-app-angular",
+    live_link:
+      "https://entertainment-web-app-angular-three.vercel.app/library/home",
   },
   {
     name: "Kanban Task Managment App",
@@ -313,16 +325,7 @@ const projects = [
       "https://github.com/TofikE124/Audiophile-Ecommerce-Website",
     live_link: "https://brilliant-begonia-545122.netlify.app",
   },
-  {
-    name: "Entrtainment Wep App",
-    description: `An immersive entertainment web app powered by React. Log in to
-       explore movies, TV shows, mark favorites, and easily search by name. Enjoy
-        a personalized experience tailored to your preferences.`,
-    tags: [tags.react, tags.fullstack],
-    image: EntertainmentWebApp,
-    source_code_link: "https://github.com/TofikE124/entertainment-web-app-V2.0",
-    live_link: "https://entertainment-web-app-v2-0-65zm.vercel.app/home",
-  },
+
   {
     name: "Interactive Comments Section",
     description: `Interactive Comments Section: Engage, Vote, Discuss! Powered by Next.js,
