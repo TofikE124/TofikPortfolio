@@ -326,50 +326,50 @@ const projects = [
     live_link: "https://brilliant-begonia-545122.netlify.app",
   },
 
-  {
-    name: "Interactive Comments Section",
-    description: `Interactive Comments Section: Engage, Vote, Discuss! Powered by Next.js,
-     NextAuth, and Prisma, this platform enables commenting, upvoting, and downvoting,
-      fostering interactive discussions. Seamlessly contribute, share opinions, and shape 
-      conversations in this dynamic community-driven space.`,
-    tags: [tags.next_js, tags.fullstack],
-    image: InteractiveCommentsSection,
-    source_code_link:
-      "https://github.com/TofikE124/interactive-comments-section",
-    live_link: "https://interactive-comments-section-pxi1.vercel.app",
-  },
+  // {
+  //   name: "Interactive Comments Section",
+  //   description: `Interactive Comments Section: Engage, Vote, Discuss! Powered by Next.js,
+  //    NextAuth, and Prisma, this platform enables commenting, upvoting, and downvoting,
+  //     fostering interactive discussions. Seamlessly contribute, share opinions, and shape
+  //     conversations in this dynamic community-driven space.`,
+  //   tags: [tags.next_js, tags.fullstack],
+  //   image: InteractiveCommentsSection,
+  //   source_code_link:
+  //     "https://github.com/TofikE124/interactive-comments-section",
+  //   live_link: "https://interactive-comments-section-pxi1.vercel.app",
+  // },
 
-  {
-    name: "Issue Tracker",
-    description: `Next.js, Prisma & NextAuth converge in this issue tracker. Easily 
-      add and categorize issues, leveraging a seamless interface for streamlined
-       issue management and accessibility.`,
-    tags: [tags.next_js, tags.fullstack],
-    image: IssueTracker,
-    source_code_link: "https://github.com/TofikE124/Designo",
-    live_link: "https://issue-tracker-u639.vercel.app",
-  },
+  // {
+  //   name: "Issue Tracker",
+  //   description: `Next.js, Prisma & NextAuth converge in this issue tracker. Easily
+  //     add and categorize issues, leveraging a seamless interface for streamlined
+  //      issue management and accessibility.`,
+  //   tags: [tags.next_js, tags.fullstack],
+  //   image: IssueTracker,
+  //   source_code_link: "https://github.com/TofikE124/Designo",
+  //   live_link: "https://issue-tracker-u639.vercel.app",
+  // },
 
-  {
-    name: "Multi Step Form",
-    description: `Explore a sleek multi-form web page using React, React Hook
-      Form, and Zod. Effortless transitions showcase efficient form features in a
-      user-friendly interface.`,
-    tags: [tags.react, tags.css],
-    image: MultiStepForm,
-    source_code_link: "https://github.com/TofikE124/MultiForm",
-    live_link: "https://inspiring-truffle-aa8631.netlify.app",
-  },
-  {
-    name: "Space Travel",
-    description: `Space Travel: Explore planets, astronauts, and rocket tech! This React-powered website offers
-       intriguing insights into space. Dive into captivating details about celestial bodies, astronauts,
-        and the fascinating technology behind space exploration.`,
-    tags: [tags.react, tags.css],
-    image: SpaceTravel,
-    source_code_link: "https://github.com/TofikE124/Space-Travel",
-    live_link: "https://symphonious-faun-36c411.netlify.app",
-  },
+  // {
+  //   name: "Multi Step Form",
+  //   description: `Explore a sleek multi-form web page using React, React Hook
+  //     Form, and Zod. Effortless transitions showcase efficient form features in a
+  //     user-friendly interface.`,
+  //   tags: [tags.react, tags.css],
+  //   image: MultiStepForm,
+  //   source_code_link: "https://github.com/TofikE124/MultiForm",
+  //   live_link: "https://inspiring-truffle-aa8631.netlify.app",
+  // },
+  // {
+  //   name: "Space Travel",
+  //   description: `Space Travel: Explore planets, astronauts, and rocket tech! This React-powered website offers
+  //      intriguing insights into space. Dive into captivating details about celestial bodies, astronauts,
+  //       and the fascinating technology behind space exploration.`,
+  //   tags: [tags.react, tags.css],
+  //   image: SpaceTravel,
+  //   source_code_link: "https://github.com/TofikE124/Space-Travel",
+  //   live_link: "https://symphonious-faun-36c411.netlify.app",
+  // },
 ];
 
 export { services, technologies, learningSections, testimonials, projects };
